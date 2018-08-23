@@ -8,13 +8,13 @@ body{
     color: white;
     background-color: black;
 }
-#box{
+.box{
     position: relative;
     width: 753px;
     height: 300px;
     margin: 115px auto 0;
 }
-#box .slide-prev,#box .slide-next{
+.box .slide-prev,.box .slide-next{
     position: absolute;
     top: 58%;
     width: 40px;
@@ -22,19 +22,19 @@ body{
     margin-top: -40px;
     text-align: center;
 }
-#box .slide-next{
+.box .slide-next{
     right: -60px;
 }
-#box .slide-prev{
+.box .slide-prev{
     left: -60px;
 }
-#box ul{
+.box ul{
     position: relative;
     width: 753px;
     height: 300px;
 }
 
-#box li{
+.box li{
     list-style: none;
     position: absolute;
     left: 50%;
@@ -43,7 +43,7 @@ body{
     height: 0;
     border: 2px solid black;
 }
-#box img{
+.box img{
     width: 100%;
     height: 100%;
     
