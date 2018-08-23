@@ -85,6 +85,8 @@
         $(this).each(function(i,ele){
             slide(ele,options)
         })
+        // 支持链式调用
+        return this;
     }
 
 })(jQuery)
